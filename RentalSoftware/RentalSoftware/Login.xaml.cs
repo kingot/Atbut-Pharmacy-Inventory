@@ -27,7 +27,7 @@ namespace RentalSoftware
     {
         ErrorWindow errM= new ErrorWindow();
        
-
+		public static string log=null;
         public static int Id;
         public static string fullname = null;
         private int valid = 0;
