@@ -1,0 +1,94 @@
+﻿<controls:MetroWindow x:Class="RentalSoftware.RecieveOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalSoftware"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="" Height="470" Width="700" GlowBrush="{DynamicResource AccentColorBrush}" 
+                      WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Background="#FFF1F1F1">
+
+        <!--Styling adding customer form-->
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="49.802"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="1" Text="Select Drug Name * " HorizontalAlignment="Right" Margin="0,1,5,17" FontSize="16"/>
+            <ComboBox x:Name="Item" Grid.Row="1" Grid.Column="1" Width="264" HorizontalAlignment="Left"
+                      Margin="5,0,0,5"
+                     controls:TextBoxHelper.Watermark="Select Drug Name" FontSize="16" FontFamily="Arial"
+                     Foreground="SlateGray" PreviewTextInput="Item_PreviewTextInput" IsEditable="True" SelectionChanged="Item_SelectionChanged"/>
+
+
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Vendor *" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,16.7" FontSize="16"/>
+            <ComboBox x:Name="Vendor" Grid.Row="2" Grid.Column="1" Width="264" HorizontalAlignment="Left"
+                      Margin="5,0,0,5" IsEditable="True"
+                     controls:TextBoxHelper.Watermark="Select Vendor" FontSize="16" FontFamily="Arial"
+                     Foreground="SlateGray" PreviewTextInput="Vendor_PreviewTextInput"/>
+
+
+            <TextBlock Text="Unit Price " HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                       Margin="0,0,5,16.7" Grid.Row="5" Grid.Column="0" FontSize="16" />
+            <TextBox x:Name="PurchaseUnitPrice" Grid.Column="1"  Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="5"
+                      FontSize="16" FontFamily="Arial"
+                     Foreground="SlateGray" 
+                     
+                     >
+            </TextBox>
+
+            <TextBlock Text="Quantity Purchased" Grid.Row="6" Grid.Column="0" Margin="0,0,5,16.7" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="16"/>
+
+            <TextBox x:Name="PurchaseQuantity" Grid.Column="1" Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="6"
+                      FontSize="16" FontFamily="Arial"
+                    Foreground="SlateGray">
+
+            </TextBox>
+
+            <TextBlock Text="Total Cost ₵" Grid.Row="7" Grid.Column="0" Margin="0,0,5,9" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="16"/>
+            <TextBox  x:Name="TotalCost" Grid.Column="1"  Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="7"
+                       FontSize="24" FontFamily="Arial" FontWeight="Normal" IsReadOnly="True"
+                     Foreground="SlateGray"
+                      />
+
+
+            <TextBlock Text="Quantity Recieveing *" Grid.Row="8" Grid.Column="0" Margin="0,0,4,8" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="16"/>
+
+            <controls:NumericUpDown x:Name="QuantityRecieve" Grid.Column="1" Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="8"
+                      FontSize="16" FontFamily="Arial"
+                    Foreground="SlateGray">
+
+            </controls:NumericUpDown>
+
+            <Button Background="{DynamicResource AccentColorBrush}" Foreground="White" FontSize="16" Content="Save" Grid.Row="9" Grid.Column="1" Margin="5,8,0,-43" HorizontalAlignment="Left" Name="Save" Width="102" FontWeight="Bold"/>
+            <Rectangle Fill="{DynamicResource AccentColorBrush3}" Stroke="Black" Margin="0,0,0,20" Grid.ColumnSpan="2"/>
+            <Label x:Name="RecievOrder" Content="Recieve Purchase Order to Store" Margin="10,0,231,20" Foreground="#FFF7F3F3" FontSize="18" Grid.ColumnSpan="2"/>
+            <Button x:Name="Cancel" Content="Cancel" Grid.Column="1" Margin="160,10,194,-43" Grid.Row="9" FontSize="16" FontWeight="Bold" Background="#FFD6D5D5" Click="Cancel_Click"/>
+        </Grid>
+
+    </Grid>
+</controls:MetroWindow>
+
+

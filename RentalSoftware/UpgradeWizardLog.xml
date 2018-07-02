@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\Rental project\RentalSoftware\RentalSoftware\RentalSoftware.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\Rental project\RentalSoftware\RentalSoftware\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\Rental project\RentalSoftware\RentalSoftware\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\Rental project\RentalSoftware\RentalSoftware\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\Rental project\RentalSoftware\RentalSoftware\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\Rental project\RentalSoftware\RentalSoftware\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\Rental project\RentalSoftware\RentalSoftware\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="E:\Rental project\RentalSoftware\RentalSoftware\App.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\Rental project\RentalSoftware\RentalSoftware\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\Rental project\RentalSoftware\RentalSoftware\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\Rental project\RentalSoftware\RentalSoftware\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\Rental project\RentalSoftware\RentalSoftware\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\Rental project\RentalSoftware\RentalSoftware\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\Rental project\RentalSoftware\RentalSoftware\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\Rental project\RentalSoftware\RentalSoftware\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\Rental project\RentalSoftware\RentalSoftware\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="RentalSoftware" path="E:\Rental project\RentalSoftware\RentalSoftware\RentalSoftware.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\ClinicApp.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\App.config" />
+  <event action="Analyze" type="Success" name="ClinicStockReporting.resx" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\ClinicStockReporting.resx" />
+  <event action="Analyze" type="Success" name="PharDispenseDrugWin.resx" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\PharDispenseDrugWin.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="viewDrugWin.resx" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\viewDrugWin.resx" />
+  <event action="Analyze" type="Success" name="viewPatientWin.resx" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\viewPatientWin.resx" />
+  <event action="Analyze" type="Success" name="ClinicApp" path="C:\Users\OT\OneDrive\visual studio wpf programs\ClinicAppCurrent1\ClinicApp\ClinicApp.csproj" />
+  <event action="Analyze" type="Success" name="RentalSoftware" path="E:\Rental project\RentalSoftware\RentalSoftware.sln" />
+</log>

@@ -1,0 +1,31 @@
+E:\Rental Project\RentalReport\Report\bin\Release\Report.dll.config
+E:\Rental Project\RentalReport\Report\bin\Release\Report.dll
+E:\Rental Project\RentalReport\Report\bin\Release\Report.pdb
+E:\Rental Project\RentalReport\Report\bin\Release\Telerik.Reporting.dll
+E:\Rental Project\RentalReport\Report\bin\Release\Telerik.Reporting.pdb
+E:\Rental Project\RentalReport\Report\bin\Release\Telerik.Reporting.xml
+E:\Rental Project\RentalReport\Report\obj\Release\Report.CustomerOrderReport.resources
+E:\Rental Project\RentalReport\Report\obj\Release\Report.DailyDetailReport.resources
+E:\Rental Project\RentalReport\Report\obj\Release\Report.DailyReport.resources
+E:\Rental Project\RentalReport\Report\obj\Release\Report.DayMonthlyYearlyReport.resources
+E:\Rental Project\RentalReport\Report\obj\Release\Report.PurchaseOrderReport.resources
+E:\Rental Project\RentalReport\Report\obj\Release\Report.csproj.GenerateResource.Cache
+E:\Rental Project\RentalReport\Report\obj\Release\Report.dll.licenses
+E:\Rental Project\RentalReport\Report\obj\Release\Report.dll
+E:\Rental Project\RentalReport\Report\obj\Release\Report.pdb
+E:\Atbuk Pharmacy App\RentalReport\Report\bin\Release\Report.dll.config
+E:\Atbuk Pharmacy App\RentalReport\Report\bin\Release\Report.dll
+E:\Atbuk Pharmacy App\RentalReport\Report\bin\Release\Report.pdb
+E:\Atbuk Pharmacy App\RentalReport\Report\bin\Release\Telerik.Reporting.dll
+E:\Atbuk Pharmacy App\RentalReport\Report\bin\Release\Telerik.Reporting.pdb
+E:\Atbuk Pharmacy App\RentalReport\Report\bin\Release\Telerik.Reporting.xml
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.BrokenItemReport.resources
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.CustomerOrderReport.resources
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.DailyDetailReport.resources
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.DailyReport.resources
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.DayMonthlyYearlyReport.resources
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.PurchaseOrderReport.resources
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.csproj.GenerateResource.Cache
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.dll.licenses
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.dll
+E:\Atbuk Pharmacy App\RentalReport\Report\obj\Release\Report.pdb

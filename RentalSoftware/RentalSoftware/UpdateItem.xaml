@@ -1,0 +1,84 @@
+﻿<controls:MetroWindow x:Class="RentalSoftware.UpdateItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalSoftware"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="" Height="400" Width="700" GlowBrush="{DynamicResource AccentColorBrush}" 
+                      WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="MetroWindow_Loaded">
+    <Grid Background="#FFF1F1F1">
+
+        <!--Styling adding customer form-->
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="49.802"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="1" Text="Category * " HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,16.7" FontSize="16"/>
+            <ComboBox x:Name="UpdateCategory" Grid.Row="1"  Grid.Column="1" Width="264" HorizontalAlignment="Left"
+                      Margin="5,0,0,5"
+                     controls:TextBoxHelper.Watermark="Select Drug Category" FontSize="16" FontFamily="Arial"
+                     Foreground="SlateGray" MaxDropDownHeight="1" IsSynchronizedWithCurrentItem="True" PreviewTextInput="UpdateCategory_PreviewTextInput" IsReadOnly="True"/>
+
+
+            <TextBlock Text="Drug Name * " HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                       Margin="0,0,5,16.7" Grid.Row="2" Grid.Column="0" FontSize="16" />
+            <TextBox  x:Name="UpdateItemName" Grid.Column="1"  Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="2" PreviewTextInput="BothNumberAndTextAndOtherCharatersValidation"
+                      controls:TextBoxHelper.Watermark="Drug Name" FontSize="16" FontFamily="Arial"
+                     controls:TextBoxHelper.ClearTextButton="True" Foreground="SlateGray"
+                      />
+
+            <TextBlock Text="Description" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                       Margin="0,0,2,39" Grid.Row="3" Grid.Column="0" FontSize="16" />
+            <TextBox  x:Name="UpdateItemDescription" Grid.Column="1"  Width="346" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="3" PreviewTextInput="BothNumberAndTextAndOtherCharatersValidation" TextWrapping="Wrap"
+                      controls:TextBoxHelper.Watermark="Drug Description" FontSize="16" FontFamily="Arial"
+                     controls:TextBoxHelper.ClearTextButton="True" Foreground="SlateGray" Height="87" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto"
+                      />
+
+
+            <TextBlock Text="Unit Price * " HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                       Margin="0,0,5,16.7" Grid.Row="4" Grid.Column="0" FontSize="16" />
+            <controls:NumericUpDown x:Name="UpdateUnitPrice" Grid.Column="1"  Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="4"
+                      controls:TextBoxHelper.Watermark="Unit Price" FontSize="16" FontFamily="Arial"
+                     Foreground="SlateGray"
+                     
+                     >
+            </controls:NumericUpDown>
+
+            <TextBlock Text="Quantity * " Grid.Row="5" Grid.Column="0" Margin="0,0,5,16.7" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="16"/>
+
+            <controls:NumericUpDown x:Name="UpdateItemQuantity" Grid.Column="1" Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="5"
+                      controls:TextBoxHelper.Watermark="Quantity" FontSize="16" FontFamily="Arial"
+                    Foreground="SlateGray">
+
+            </controls:NumericUpDown>
+
+
+            <Button Background="{DynamicResource AccentColorBrush}" Foreground="White" FontSize="16" Content="Save" Grid.Row="7" Grid.Column="1" Margin="5,1,0,10" HorizontalAlignment="Left" Name="Save" Width="102" FontWeight="Bold" Click="Save_Click"/>
+            <Rectangle Fill="{DynamicResource AccentColorBrush3}" Stroke="Black" Margin="0,0,0,10" Grid.ColumnSpan="2"/>
+            <Label x:Name="Item" Content="Update Drug Information" Margin="10,0,231,10" Foreground="#FFF7F3F3" FontSize="18" Grid.ColumnSpan="2"/>
+            <Button x:Name="UpdateCancel" Content="Cancel" Grid.Column="1" Margin="160,3,194,10" Grid.Row="7" FontSize="16" FontWeight="Bold" Background="#FFD6D5D5" Click="UpdateCancel_Click"/>
+        </Grid>
+
+    </Grid>
+</controls:MetroWindow>
+

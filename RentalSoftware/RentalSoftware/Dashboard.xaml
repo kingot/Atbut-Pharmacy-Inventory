@@ -1,0 +1,322 @@
+﻿<controls:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalSoftware"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="RentalSoftware.Dashboard"
+        mc:Ignorable="d"
+       Title="" Height="600" Width="1000" GlowBrush="{DynamicResource AccentColorBrush}" 
+                      WindowState="Maximized" RightWindowCommandsOverlayBehavior="Never" TitleCaps="False"
+                         WindowButtonCommandsOverlayBehavior="Never" Closing="MetroWindow_Closing" Activated="MetroWindow_Activated" Loaded="MetroWindow_Loaded"
+                        NonActiveWindowTitleBrush="{DynamicResource AccentColorBrush}">
+
+    <controls:MetroWindow.RightWindowCommands>
+        <controls:WindowCommands>
+            <!--<Button FontSize="16" x:Name="welcome" Foreground="#FFFDEA2D"/>-->
+            <TextBlock FontSize="16" x:Name="welcome" Foreground="#FFFDEA2D"></TextBlock>
+            <ToggleButton Content="Preferences" FontSize="18"
+        IsChecked="{Binding ElementName=Flyout, Path=IsOpen}" Cursor="Hand" />
+
+            <Button x:Name="logout" FontSize="16" Content="Logout" Click="Logout_Click"/>
+        </controls:WindowCommands>
+    </controls:MetroWindow.RightWindowCommands>
+
+    <!--Testing flyoutcontrol window  -->
+    <controls:MetroWindow.Flyouts>
+        <controls:FlyoutsControl x:Name="FlyoutsControl">
+            <controls:Flyout x:Name="Flyout"
+                Position="Right"
+                AreAnimationsEnabled="True"
+                Header="Preferences and Settings"
+                 IsPinned="False"
+                Width="300" Theme="Inverse">
+                <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
+
+                    <Button BorderBrush="{x:Null}" x:Name="AddItemCategory" Width="300" Cursor="Hand" 
+                            FontSize="12" Height="40" Click="AddItemCategory_Click">
+                        Add Drug Category</Button>
+                    <!--<Button BorderBrush="{x:Null}" x:Name="ChangeItemPrice" 
+                           Width="300" Cursor="Hand"  FontSize="12" Height="40" Click="ChangeItemPrice_Click">
+                        Change Item Price</Button>-->
+                    <Button BorderBrush="{x:Null}" x:Name="RecordBrokenItem" 
+                            Width="300" Cursor="Hand"  FontSize="12" Height="40" Click="RecordBrokenItem_Click">
+                        Record Expiry Drug</Button>
+
+                    <Rectangle Fill="{DynamicResource AccentColorBrush}" Height="2"></Rectangle>
+                    <TextBlock Text=" Company Settings"  FontSize="18" HorizontalAlignment="Center" Height="35"></TextBlock>
+                    <Rectangle Fill="{DynamicResource AccentColorBrush}" Height="2"></Rectangle>
+
+                    <Button BorderBrush="{x:Null}" x:Name="UpdateCompanyInfo" Width="300" Cursor="Hand"  FontSize="12" Height="40" Click="UpdateCompanyInfo_Click">
+                        Update Company Details</Button>
+                    <Button BorderBrush="{x:Null}" x:Name="AddNewUser" Width="300" Cursor="Hand"  FontSize="12" Height="40" Click="AddNewUser_OnClick">
+                        Add New User</Button>
+                    <Button BorderBrush="{x:Null}" x:Name="ResetPassword" Width="300" Cursor="Hand"  FontSize="12" Height="40" Click="ResetPassword_OnClick">
+                        Reset password</Button>
+
+                </StackPanel>
+
+
+            </controls:Flyout>
+        </controls:FlyoutsControl>
+    </controls:MetroWindow.Flyouts>
+
+
+
+    <Grid Background="#FFF1F1F1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="23*"/>
+        </Grid.ColumnDefinitions>
+        <!-- testing tabcontrol -->
+        <!--<TabControl Margin="0,-14,0,15" Grid.ColumnSpan="2">
+            <TabItem Header="File"></TabItem>
+            <TabItem Header="Inventory"></TabItem>
+            <TabItem Header="Sales"></TabItem>
+        </TabControl>-->
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Panel.ZIndex="100" Margin="96,14,96,15" Grid.ColumnSpan="2">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="150" MaxHeight="30"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="150" MaxHeight="30"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="150" MaxHeight="30"/>
+                <RowDefinition Height="150"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+
+
+
+
+
+            <Rectangle Fill="{DynamicResource AccentColorBrush4}" Height="4" VerticalAlignment="Stretch" Grid.Row="5" Grid.ColumnSpan="4" Margin="-5,146,5,0"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="SALES AND CUSTOMERS" FontWeight="Bold" FontSize="14" Margin="0,0,0,10"
+				Foreground="{DynamicResource AccentColorBrush}" Grid.ColumnSpan="4"
+				Background="{DynamicResource AccentColorBrush4}"/>
+
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="INVENTORY AND REPORT" FontWeight="Bold" FontSize="14" Margin="0,0,0,10"
+				Foreground="{DynamicResource AccentColorBrush}" Grid.ColumnSpan="4"
+				Background="{DynamicResource AccentColorBrush4}"/>
+
+            <!--<Rectangle Fill="{DynamicResource AccentColorBrush4}" Height="4" VerticalAlignment="Stretch" Grid.Row="2" Grid.ColumnSpan="2">
+            </Rectangle>
+            <TextBlock Grid.Row="2" Grid.Column="2" Text="Inventory and Report" FontSize="18" FontWeight="Bold" Margin="10,0,141,5"
+                Foreground="{DynamicResource AccentColorBrush2}" Grid.ColumnSpan="2"></TextBlock>
+            -->
+            <StackPanel Grid.Column="0" Grid.Row="1">
+                <Button Width="60"
+					Height="60"
+					Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+						Height="32"
+						Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_book_list}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+
+                <Button  Content="Make a sale" x:Name="MakeASale" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="5"  HorizontalAlignment="Stretch"
+					BorderThickness="0" Background="{x:Null}" Cursor="Hand" Foreground="{DynamicResource BlackColorBrush}"  Height="60"  BorderBrush="{x:Null}" Click="MakeASale_Click"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="1">
+                <Button Width="60"
+					Height="60"
+					Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+						Height="32"
+						Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_graph_line_up}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+                <Button Content="Today Sales" x:Name="SaleHistory" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="5"  HorizontalAlignment="Stretch"
+					Background="{x:Null}" BorderThickness="0" Cursor="Hand" Height="60" Foreground="{DynamicResource BlackColorBrush}"  BorderBrush="{x:Null}" Click="SaleHistory_Click_1"/>
+
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Grid.Row="1">
+                <Button Width="60"
+					Height="60"
+					Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+						Height="32"
+						Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_user_add}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+                <Button Content="Add New Customer" x:Name="AddNewCustomer" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="5"  HorizontalAlignment="Stretch"
+					Background="{x:Null}" BorderThickness="0" Cursor="Hand" Height="60" Foreground="{DynamicResource BlackColorBrush}" BorderBrush="{x:Null}" Click="AddNewCustomer_Click"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="3" Grid.Row="1">
+
+                <Button Width="60"
+					Height="60"
+					Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+						Height="32"
+						Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_people_multiple}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+
+                <Button Content="Customer List" x:Name="CustomerList" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="5"  HorizontalAlignment="Stretch"
+					Background="{x:Null}" BorderThickness="0" Cursor="Hand" Height="60"
+                        Foreground="{DynamicResource BlackColorBrush}" BorderBrush="{x:Null}" Click="CustomerList_Click"/>
+            </StackPanel>
+
+
+            <StackPanel Grid.Column="0" Grid.Row="3">
+                <Button Width="60"
+					Height="60"
+					Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+						Height="32"
+						Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_add}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+
+                <Button Content="Add New Drugs" x:Name="AddNewItem" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="5"  HorizontalAlignment="Stretch"
+					Background="{x:Null}" BorderThickness="0" Height="60" Cursor="Hand" Foreground="{DynamicResource BlackColorBrush}"  BorderBrush="{x:Null}" Click="AddNewItem_Click"/>
+
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="3">
+                <Button Width="60"
+					Height="60"
+					Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+						Height="32"
+						Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_cabinet_files}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+
+                <Button Content="Drugs List" x:Name="Items" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="0,5,0,10"  HorizontalAlignment="Stretch"
+					Background="{x:Null}" BorderThickness="0" Cursor="Hand" Height="60" Foreground="{DynamicResource BlackColorBrush}"  BorderBrush="{x:Null}" Click="Items_Click"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Grid.Row="3">
+                <Button Width="60"
+					Height="60"
+					Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+						Height="32"
+						Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_graph_bar}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+                <Button Content="Sales Report" x:Name="SalesReport" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="0,5,0,10"  HorizontalAlignment="Stretch"
+					Background="{x:Null}" BorderThickness="0" Cursor="Hand" Height="60" Foreground="{DynamicResource BlackColorBrush}"  BorderBrush="{x:Null}" Click="SalesReport_Click"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="3" Grid.Row="3">
+                <Button Width="60"
+					Height="60"
+					Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+						Height="32"
+						Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill"/>
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+                <Button Content="Coming Soon" x:Name="ItemsStatusReport" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="0,5,0,10"  HorizontalAlignment="Stretch"
+					Background="{x:Null}" BorderThickness="0" Cursor="Hand" Height="60" Foreground="{DynamicResource BlackColorBrush}"  BorderBrush="{x:Null}"/>
+            </StackPanel>
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="PURCHASING AND VENDORS" FontWeight="Bold" FontSize="14" Margin="0,3,0,7"
+            	Foreground="{DynamicResource AccentColorBrush}" Grid.ColumnSpan="4"
+            	Background="{DynamicResource AccentColorBrush4}"/>
+            <StackPanel Grid.Column="0" Grid.Row="5">
+                <Button Width="60"
+            		Height="60"
+            		Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+            			Height="32"
+            			Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_cabinet_in}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+
+                <Button Content="Recieve Drugs" x:Name="RecieveItems" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="5"  HorizontalAlignment="Stretch"
+            		Background="{x:Null}" BorderThickness="0" Height="60" Cursor="Hand" Foreground="{DynamicResource BlackColorBrush}"  BorderBrush="{x:Null}" Click="RecieveItems_Click"/>
+
+            </StackPanel>
+            <StackPanel Grid.Column="1" Grid.Row="5">
+                <Button Width="60"
+            		Height="60"
+            		Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+            			Height="32"
+            			Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_currency_cent}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+
+                <Button Content="Purchase Order" x:Name="PurchaseOrder" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="0,5,0,10"  HorizontalAlignment="Stretch"
+            		Background="{x:Null}" BorderThickness="0" Cursor="Hand" Height="60" Foreground="{DynamicResource BlackColorBrush}"  BorderBrush="{x:Null}" Click="PurchaseOrder_Click"/>
+            </StackPanel>
+            <StackPanel Grid.Column="2" Grid.Row="5">
+                <Button Width="60"
+            		Height="60"
+            		Style="{DynamicResource MetroCircleButtonStyle}">
+                    <Rectangle Width="32"
+            			Height="32"
+            			Fill="{Binding Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{DynamicResource appbar_people_status}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </Button>
+                <Button Content="Vendors" x:Name="Vendors" FontSize="12"  FontFamily="Microsoft YaHei UI" Margin="0,5,0,10"  HorizontalAlignment="Stretch"
+            		Background="{x:Null}" BorderThickness="0" Cursor="Hand" Height="60" Foreground="{DynamicResource BlackColorBrush}"  BorderBrush="{x:Null}" Click="Vendors_Click"/>
+            </StackPanel>
+
+        </Grid>
+
+
+
+
+        <!--Status Bar at buttom-->
+        <StatusBar HorizontalAlignment="Stretch" VerticalAlignment="Bottom" FontSize="16" Grid.ColumnSpan="2">
+            <StatusBarItem x:Name="ActiveUser" Foreground="#FFFDEA2D"/>
+            <Separator Style="{StaticResource MetroStatusBarSeparator}"/>
+            <StatusBarItem x:Name="statusTime">
+                
+                </StatusBarItem>
+            <!--<Separator Style="{StaticResource MetroStatusBarSeparator}"/>
+            <StatusBarItem Content="Time :"/>-->
+        </StatusBar>
+    </Grid>
+</controls:MetroWindow>
+
+
+

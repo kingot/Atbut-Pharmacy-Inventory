@@ -1,0 +1,20 @@
+﻿RentalSoftware
+
+
+winexe
+C#
+.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\
+RentalSoftware
+none
+false
+DEBUG;TRACE
+E:\Rental Project\RentalSoftware\RentalSoftware\App.xaml
+341339078536
+
+54-1041390904
+37-1945348431
+AddCompanyInfo.xaml;AddCustomer.xaml;AddItem.xaml;AddItemCategory.xaml;AddUser.xaml;AddVendor.xaml;BrokenItem.xaml;ChangeItemPrice.xaml;ChangePassword.xaml;CustomerListGUI.xaml;Dashboard.xaml;ErrorWindow.xaml;ItemListGUI.xaml;Login.xaml;MakeASale.xaml;PreviewReportOnly.xaml;PurchaseOrder.xaml;PurchaseOrderListGui.xaml;RecieveItemGUI.xaml;RecieveOrder.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;ReturnItem.xaml;SalePerson.xaml;SuccessWindow.xaml;Themes\System.Windows.xaml;Themes\Telerik.ReportViewer.Wpf.xaml;Themes\Telerik.Windows.Controls.Input.xaml;Themes\Telerik.Windows.Controls.Navigation.xaml;Themes\Telerik.Windows.Controls.xaml;UpdateCustomer.xaml;UpdateItem.xaml;UpdateVendor.xaml;VendorLisGUI.xaml;
+media\splash.png
+False
+

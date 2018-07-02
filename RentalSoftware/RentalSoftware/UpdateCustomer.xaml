@@ -1,0 +1,78 @@
+﻿<controls:MetroWindow x:Class="RentalSoftware.UpdateCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalSoftware"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+         Title="" Height="400" Width="700" GlowBrush="{DynamicResource AccentColorBrush}" 
+                      WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="UpdateCustomer_Loaded">
+    <Grid Background="#FFF1F1F1">
+
+        <!--Styling adding customer form-->
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="49.802"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="1" Text="FUll Name *" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,16.7" FontSize="16"/>
+            <TextBox x:Name="UpdateFullName" Grid.Row="1"  Grid.Column="1" Width="380" HorizontalAlignment="Left"
+                      Margin="5,0,0,5" PreviewTextInput="TextValidationTextBox1"
+                     controls:TextBoxHelper.Watermark="Full Name" FontSize="18" FontWeight="Normal" FontFamily="Arial"
+                     controls:TextBoxHelper.ClearTextButton="True" Foreground="SlateGray"
+                      
+                     />
+
+            <TextBlock Text="Phone Number *" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                       Margin="0,0,4,9" Grid.Row="3" Grid.Column="0" FontSize="16" />
+            <TextBox  x:Name="UpdatePhone" Grid.Column="1"  Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="3" PreviewTextInput="NumberValidationTextBox"
+                      controls:TextBoxHelper.Watermark="Phone Number" FontSize="18" FontFamily="Arial"
+                     controls:TextBoxHelper.ClearTextButton="True" Foreground="SlateGray"
+                      
+                      />
+
+
+            <TextBlock Text="Email" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                       Margin="0,0,5,9" Grid.Row="4" Grid.Column="0" FontSize="16" />
+
+            <TextBox  x:Name="UpdateEmail" Grid.Column="1"  Width="264" HorizontalAlignment="Left"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="4" PreviewTextInput="BothNumberAndTextValidation"
+                      controls:TextBoxHelper.Watermark="Email" FontSize="18" FontFamily="Arial"
+                     controls:TextBoxHelper.ClearTextButton="True" Foreground="SlateGray"
+                       
+                      />
+
+            <TextBlock Text="Address" Grid.Row="5" Grid.Column="0" Margin="0,0,5,32" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="16" RenderTransformOrigin="0.501,-0.186"/>
+            <TextBox  x:Name="UpdateAddress" Grid.Column="1" Width="380" HorizontalAlignment="Left" Height="80"
+                      VerticalAlignment="Bottom" Margin="5,0,0,5" Grid.Row="5" PreviewTextInput="BothNumberAndTextValidation"
+                      controls:TextBoxHelper.Watermark="Address" FontSize="18" FontFamily="Arial" TextWrapping="Wrap"
+                     controls:TextBoxHelper.ClearTextButton="True" Foreground="SlateGray" VerticalScrollBarVisibility="Auto" 
+                    
+                      />
+
+
+            <Button Background="{DynamicResource AccentColorBrush}" Foreground="White" FontSize="16" Content="Save" Grid.Row="7" Grid.Column="1" Margin="5,1,0,10" 
+                    HorizontalAlignment="Left" Name="Save" Width="102" FontWeight="Bold" Click="Save_Click"/>
+            <Rectangle Fill="{DynamicResource AccentColorBrush3}" Stroke="Black" Margin="0,0,0,10" Grid.ColumnSpan="2"/>
+            <Label x:Name="UpdatCustomer" Content="Update Customer Information" Margin="10,0,231,10" Foreground="#FFF7F3F3" FontSize="18" Grid.ColumnSpan="2"/>
+            <Button x:Name="Cancel" Content="Cancel" Grid.Column="1" Margin="160,3,194,10" Grid.Row="7" FontSize="16" FontWeight="Bold" Background="#FFD6D5D5" Click="Cancel_Click"/>
+        </Grid>
+
+    </Grid>
+</controls:MetroWindow>
+

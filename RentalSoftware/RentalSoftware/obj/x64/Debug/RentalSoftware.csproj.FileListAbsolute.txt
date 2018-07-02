@@ -1,0 +1,222 @@
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\RentalSoftware.exe.config
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\RentalSoftware.exe
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\RentalSoftware.pdb
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\MahApps.Metro.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Report.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\System.Windows.Interactivity.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Reporting.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.WinForms.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.Wpf.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.Data.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.DataVisualization.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.GanttView.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.GridView.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.Input.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.Navigation.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Data.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.Proofing.RadGridView.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Scheduling.Core.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.Proofing.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.Core.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.Flow.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Zip.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Report.pdb
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\MahApps.Metro.pdb
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\MahApps.Metro.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Reporting.pdb
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Reporting.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.WinForms.pdb
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.WinForms.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.Wpf.pdb
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.Wpf.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.Data.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.DataVisualization.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.GanttView.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.GridView.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.Input.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Controls.Navigation.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Data.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.Proofing.RadGridView.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Scheduling.Core.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.Proofing.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.Core.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Documents.Flow.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Windows.Zip.xml
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\de\Telerik.Windows.Controls.resources.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\es\Telerik.Windows.Controls.resources.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\fr\Telerik.Windows.Controls.resources.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\it\Telerik.Windows.Controls.resources.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\nl\Telerik.Windows.Controls.resources.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\bin\x64\Debug\tr\Telerik.Windows.Controls.resources.dll
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.csprojResolveAssemblyReference.cache
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddCustomer.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Resources\Icons.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Resources\IconsNonShared.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\System.Windows.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\Telerik.ReportViewer.Wpf.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\Telerik.Windows.Controls.Input.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\Telerik.Windows.Controls.Navigation.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\Telerik.Windows.Controls.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddCompanyInfo.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddCustomer.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddItem.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddItemCategory.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddUser.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddVendor.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\BrokenItem.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ChangeItemPrice.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ChangePassword.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\CustomerListGUI.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Dashboard.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ErrorWindow.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ItemListGUI.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Login.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\MakeASale.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\PreviewReportOnly.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\PurchaseOrder.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\PurchaseOrderListGui.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RecieveItemGUI.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RecieveOrder.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ReturnItem.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\SalePerson.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\SuccessWindow.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateCustomer.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateItem.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateVendor.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\VendorLisGUI.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\App.g.cs
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware_MarkupCompile.cache
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware_MarkupCompile.lref
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\App.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddCompanyInfo.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddItem.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddItemCategory.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddUser.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\AddVendor.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\BrokenItem.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ChangeItemPrice.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ChangePassword.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\CustomerListGUI.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Dashboard.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ErrorWindow.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ItemListGUI.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\Login.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\MakeASale.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\PreviewReportOnly.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\PurchaseOrder.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\PurchaseOrderListGui.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RecieveItemGUI.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RecieveOrder.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\ReturnItem.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\SalePerson.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\SuccessWindow.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateCustomer.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateItem.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateVendor.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\VendorLisGUI.baml
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.g.resources
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.Properties.Resources.resources
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.Report_Windows.OtherSalesReport.resources
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.Report_Windows.TodaySales.resources
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.csproj.GenerateResource.Cache
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.exe.licenses
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.exe
+E:\Rental Project\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.pdb
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\RentalSoftware.exe.config
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\RentalSoftware.exe
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\RentalSoftware.pdb
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\MahApps.Metro.dll
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Report.dll
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\System.Windows.Interactivity.dll
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Reporting.dll
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.WinForms.dll
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.Wpf.dll
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Report.pdb
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\MahApps.Metro.pdb
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\MahApps.Metro.xml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Reporting.pdb
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.Reporting.xml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.WinForms.pdb
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.WinForms.xml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.Wpf.pdb
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\bin\x64\Debug\Telerik.ReportViewer.Wpf.xml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.csprojResolveAssemblyReference.cache
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddCustomer.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Resources\Icons.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Resources\IconsNonShared.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\System.Windows.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\Telerik.ReportViewer.Wpf.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\Telerik.Windows.Controls.Input.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\Telerik.Windows.Controls.Navigation.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Themes\Telerik.Windows.Controls.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddCompanyInfo.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddCustomer.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddItem.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddItemCategory.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddUser.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddVendor.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\BrokenItem.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ChangeItemPrice.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ChangePassword.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\CustomerListGUI.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Dashboard.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ErrorWindow.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ItemListGUI.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Login.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\MakeASale.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\PreviewReportOnly.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\PurchaseOrder.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\PurchaseOrderListGui.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RecieveItemGUI.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RecieveOrder.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ReturnItem.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\SalePerson.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\SuccessWindow.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateCustomer.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateItem.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateVendor.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\VendorLisGUI.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\App.g.cs
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware_MarkupCompile.cache
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware_MarkupCompile.lref
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\App.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddCompanyInfo.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddItem.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddItemCategory.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddUser.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\AddVendor.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\BrokenItem.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ChangeItemPrice.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ChangePassword.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\CustomerListGUI.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Dashboard.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ErrorWindow.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ItemListGUI.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\Login.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\MakeASale.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\PreviewReportOnly.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\PurchaseOrder.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\PurchaseOrderListGui.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RecieveItemGUI.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RecieveOrder.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\ReturnItem.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\SalePerson.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\SuccessWindow.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateCustomer.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateItem.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\UpdateVendor.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\VendorLisGUI.baml
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.g.resources
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.Properties.Resources.resources
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.Report_Windows.OtherSalesReport.resources
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.Report_Windows.TodaySales.resources
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.csproj.GenerateResource.Cache
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.exe.licenses
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.exe
+E:\Atbuk Pharmacy App\RentalSoftware\RentalSoftware\obj\x64\Debug\RentalSoftware.pdb

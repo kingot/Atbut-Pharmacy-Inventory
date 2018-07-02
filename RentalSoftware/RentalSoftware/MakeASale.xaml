@@ -1,0 +1,159 @@
+﻿<controls:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalSoftware"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+        x:Class="RentalSoftware.MakeASale"
+        mc:Ignorable="d"
+        Title="" 
+ 
+ 
+ GlowBrush="{DynamicResource AccentColorBrush}" 
+                      WindowState="Maximized" RightWindowCommandsOverlayBehavior="Never" TitleCaps="False"
+                         WindowButtonCommandsOverlayBehavior="Never" 
+                        NonActiveWindowTitleBrush="{DynamicResource AccentColorBrush}"  WindowStartupLocation="CenterScreen" Loaded="MetroWindow_Loaded">
+
+    <Window.Resources>
+        <Style x:Key="AlternatingListViewItemStyle" TargetType="{x:Type ListViewItem}">
+            <Style.Triggers>
+                <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                    <Setter Property="Background" Value="LightCyan"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="10" MaxHeight="30" />
+            <RowDefinition Height="100"/>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+
+        </Grid.ColumnDefinitions>
+
+        <!--<StackPanel Grid.Column="0" Grid.Row="2" Margin="10,0,-98,-0.25" Grid.ColumnSpan="2">-->
+        <Rectangle Grid.ColumnSpan="2" Fill="#FFF4F4F5" Margin="0,87,-704,0" Grid.Row="4" Stroke="Black" Grid.RowSpan="2"/>
+
+
+
+        <Rectangle Grid.ColumnSpan="2" Fill="#FFF4F4F5" Margin="0,0,-704,54" Stroke="Black" Grid.RowSpan="3"/>
+
+        <!--<StackPanel Grid.Column="0" Grid.Row="2" Margin="10,0,-98,-0.25" Grid.ColumnSpan="2">-->
+        <TextBlock  Text="Select Customer" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" Margin="21.94,0,0,-1.8" FontSize="16" RenderTransformOrigin="-1.957,3.333" Height="45.8" VerticalAlignment="Bottom"/>
+        <ComboBox x:Name="Customer" Grid.Column="1" Grid.Row="1" Width="278" HorizontalAlignment="Right"
+			Margin="-41.5,0,-36.5,10.467" SelectedValuePath="Id"
+			controls:TextBoxHelper.Watermark="Select Customer" FontSize="16" FontFamily="Arial"
+			Foreground="SlateGray" IsReadOnly="True" Height="39" VerticalAlignment="Bottom" Loaded="Customer_Loaded" SelectionChanged="Customer_SelectionChanged"/>
+
+
+
+
+        <!--show listview  here -->
+        <TextBlock x:Name="Pos" Grid.ColumnSpan="2" Margin="0,0,-704,0" TextWrapping="Wrap" FontSize="24" Height="48" VerticalAlignment="Top" Background="#FFDEDEDE" Grid.RowSpan="2"/>
+        <TextBlock x:Name="Discount1" Grid.Column="1" HorizontalAlignment="Right" Height="24" Margin="0,0,-577,139" Grid.Row="4" TextWrapping="Wrap" Text="Discount ₵" VerticalAlignment="Bottom" Width="86" FontSize="16" FontFamily="Arial" Grid.RowSpan="2"/>
+        <TextBlock x:Name="SubTotal1" Grid.Column="1" HorizontalAlignment="Right" Margin="0,31,-513,0" Grid.Row="5" TextWrapping="Wrap" Text="SubTotal ₵" Width="106" FontSize="20" FontWeight="Bold" FontFamily="Arial" Height="31" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Total1" Grid.Column="1" HorizontalAlignment="Right" Margin="0,58,-513,0" Grid.Row="5" TextWrapping="Wrap" Text="Total ₵" Width="68" Height="31" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" FontFamily="Arial"/>
+        <TextBox x:Name="Discount" Grid.Column="1" HorizontalAlignment="Right" Height="30" FontSize="18" 
+                                FontFamily="Arial" 
+                                Margin="0,0,-675,139" Grid.Row="4" VerticalAlignment="Bottom" Width="98" 
+                                Grid.RowSpan="2" controls:TextBoxHelper.Watermark="0.00" HorizontalContentAlignment="Left" TextChanged="Discount_TextChanged" LostFocus="Discount_LostFocus"/>
+        <controls:NumericUpDown x:Name="SubTotal" IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Right" 
+                                Margin="0,0,-681,100" Grid.Row="5" Width="168" Background="#FF150D0D" Foreground="#FF66FF39"
+                                controls:TextBoxHelper.Watermark="0.00" FontSize="18" FontFamily="Arial" Height="30"
+                                VerticalAlignment="Bottom" HorizontalContentAlignment="Left"/>
+        <controls:NumericUpDown x:Name="Total" Grid.Column="1" IsReadOnly="True"  HorizontalAlignment="Right" 
+                                Margin="0,56,-681,0" Grid.Row="5" Width="168" Height="30" VerticalAlignment="Top" 
+                                Background="#FF251D1D" Foreground="#FFF11600" FontSize="18" FontFamily="Arial" 
+                                controls:TextBoxHelper.Watermark="0.00" HorizontalContentAlignment="Left"/>
+
+        <Button x:Name="PreviewOnly" Content="Preview Only" Grid.Column="1" HorizontalAlignment="Right" Height="33" Margin="0,0,-352,17" Grid.Row="5" VerticalAlignment="Bottom" Width="116" FontSize="12" RenderTransformOrigin="0.5,0.508" Click="PrintAndSave_Click_1"/>
+        <Button x:Name="SavedOnly" Content="Print &amp; Save Only" Grid.Column="1" HorizontalAlignment="Right" Height="33" Margin="0,0,-484,17" Grid.Row="5" VerticalAlignment="Bottom" Width="128" FontSize="12" Click="SavedOnly_Click"/>
+        <Button x:Name="Cancel" Content="Cancel" Grid.Column="1" HorizontalAlignment="Right" Height="33" Margin="0,0,-682,17" Grid.Row="5" VerticalAlignment="Bottom" Width="88" FontSize="12" Click="Cancel_Click" RenderTransformOrigin="-0.642,0.576"/>
+
+
+        <ListView x:Name="OrderList"  Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="2" Grid.Column="0"
+                  Margin="0,100,-704,76" FontSize="14" AlternationCount="2"  ItemContainerStyle="{StaticResource AlternatingListViewItemStyle}"
+                  FontWeight="Normal" IsSynchronizedWithCurrentItem="False">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn x:Name="ListItem" DisplayMemberBinding="{Binding ItemName}" Header="Drug Description" Width="350"/>
+                    <GridViewColumn x:Name="ListQuantity" DisplayMemberBinding="{Binding Quantity}" Header="Quantity" Width="250"/>
+                    <GridViewColumn x:Name="ListUnitPrice" DisplayMemberBinding="{Binding UnitPrice}" Header="Unit Price" Width="250"/>
+                    <GridViewColumn x:Name="ListTotalCost" DisplayMemberBinding="{Binding Total}" Header="Total Cost" Width="250"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <!--<telerik:RadGridView x:Name="OrderList"  Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="2" Grid.Column="0" DragElementAction="None"  ShowGroupPanel="False"
+                  Margin="0,104,-874,49" IsReadOnly="True" IsFilteringAllowed="False" AutoGenerateColumns="False" CanUserFreezeColumns="False"
+                             CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False" CanUserInsertRows="False" 
+                             CanUserSortGroups="False" EnableColumnGroupsVirtualization="False" IsSynchronizedWithCurrentItem="False" Loaded="OrderList_Loaded">
+            <telerik:RadGridView.Columns>
+                <telerik:GridViewColumn  Header="Item Description" IsSortable="False" IsReorderable="False" IsResizable="False" IsGroupable="False" IsFilterable="False" ShowFieldFilters="False" ShowFilterButton="False" ShowColumnWhenGrouped="False" ShowDistinctFilters="False"/>
+                <telerik:GridViewColumn  Header="Quantity" IsSortable="False" IsReorderable="False" IsResizable="False" IsGroupable="False" IsFilterable="False" ShowFieldFilters="False" ShowFilterButton="False" ShowColumnWhenGrouped="False" ShowDistinctFilters="False"/>
+                <telerik:GridViewColumn  Header="Unit Price" IsSortable="False" IsReorderable="False" IsResizable="False" IsGroupable="False" IsFilterable="False" ShowFieldFilters="False" ShowFilterButton="False" ShowColumnWhenGrouped="False" ShowDistinctFilters="False"/>
+                <telerik:GridViewColumn Header="Total Cost" IsSortable="False" IsReorderable="False" IsResizable="False" IsReadOnly="True" IsGroupable="False" IsFilterable="False" ShowFieldFilters="False" ShowFilterButton="False" ShowColumnWhenGrouped="False" ShowDistinctFilters="False"/>
+            </telerik:RadGridView.Columns>
+        </telerik:RadGridView>-->
+        <!--<DataGrid x:Name="ItemListView" Margin="10,1.8,-794,49" Grid.ColumnSpan="2" Grid.Column="0"
+			Grid.Row="2" Grid.RowSpan="3" CanUserAddRows="True" AutoGenerateColumns="False"
+                  GridLinesVisibility="All" RowBackground="White" SelectionUnit="Cell">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ItemId}" x:Name="ItemId" CanUserSort="False" ClipboardContentBinding="{x:Null}" Header="Item #" FontSize="16" MinWidth="200"/>
+                <DataGridComboBoxColumn  CanUserSort="False" x:Name="ItemName" CanUserReorder="False" ClipboardContentBinding="{x:Null}" Header="Item Name"  ItemsSource="{}" SelectedValueBinding="{x:Null}" SelectedItemBinding="{Binding ItemName}" TextBinding="{x:Null}" MinWidth="350"/>
+                <DataGridTextColumn Binding="{Binding Quantity}" x:Name="Quantity" CanUserSort="False" ClipboardContentBinding="{x:Null}" Header="Quantity" FontSize="16" MinWidth="200"/>
+                <DataGridTextColumn Binding="{Binding UnitPrice}" x:Name="UnitPrice" ClipboardContentBinding="{x:Null}" Header="Unit Price" IsReadOnly="True" FontSize="14" MinWidth="200"/>
+                <DataGridTextColumn Binding="{Binding Total}" x:Name="TotalCost" CanUserSort="False" CanUserResize="False" ClipboardContentBinding="{x:Null}" Header="Total " IsReadOnly="True" FontSize="16" MinWidth="200" />
+            </DataGrid.Columns>
+        </DataGrid>-->
+
+
+
+        <Label x:Name="label" Content="Bill To Address:" Height="34" Margin="20,0,29,9" Grid.Row="4" VerticalAlignment="Bottom" FontSize="16" FontWeight="Bold" FontFamily="Arial"/>
+        <ListBox x:Name="list" Margin="22,140,-36,47" Grid.Row="4" Grid.ColumnSpan="2" Background="#FFF4F4F5" FontFamily="Arial" FontSize="14" BorderBrush="#FF2E1313" BorderThickness="1" Grid.RowSpan="2"/>
+        <TextBlock  Text="Start Selling" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Left" Margin="20,55,0,67.45" FontSize="16" RenderTransformOrigin="-1.957,3.333" Width="114.5"/>
+        <TextBlock  Text="Drug Name *" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Margin="61,28,0,0" FontSize="14" RenderTransformOrigin="-1.957,3.333" Width="92" Height="17" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock  Text="Quantity *" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Margin="272,27,-143,0" FontSize="14" RenderTransformOrigin="-1.957,3.333" Width="72" Height="20" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock  Text="Unit Price" Grid.Column="1" Grid.Row="2" Margin="398,27,-277,0" FontSize="14" RenderTransformOrigin="-1.957,3.333" Height="20" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock  Text="Total Cost" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Margin="543,27,-417,0" FontSize="14" RenderTransformOrigin="-1.957,3.333" Width="75" Height="20" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ComboBox x:Name="ItemName" Margin="160,51,-36,67" Grid.Row="2" PreviewTextInput="TextValidationTextBox"
+                  controls:TextBoxHelper.Watermark="Select Drug Name" controls:TextBoxHelper.HasText="True" FontSize="18" FontFamily="Segoe UI" VerticalAlignment="Center" SelectionChanged="ItemName_SelectionChanged" Grid.ColumnSpan="2" Height="40" IsEditable="True"/>
+        <controls:NumericUpDown x:Name="Quantity" Grid.Column="1" Margin="0,51,-164,67" Grid.Row="2" 
+                 HorizontalAlignment="Right" Width="123" FontSize="18" FontFamily="Segoe UI" VerticalAlignment="Center" ValueChanged="Quantity_ValueChanged" Height="40" TextInput="Quantity_TextInput"/>
+        <TextBox x:Name="UnitPrice" IsReadOnly="True" Grid.Column="1" Margin="0,51,-304,67" Grid.Row="2"  HorizontalAlignment="Right" Width="136" controls:TextBoxHelper.Watermark="0.00" FontSize="18" FontFamily="Segoe UI" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="TotalCost" IsReadOnly="True" Grid.Column="1" Margin="0,51,-445,67" Grid.Row="2" TextWrapping="Wrap" HorizontalAlignment="Right" Width="136" FontSize="18" FontFamily="Segoe UI" VerticalAlignment="Center" Height="40"/>
+        <Button x:Name="AddItem" Content="Add Item" Grid.Column="1" HorizontalAlignment="Right" Margin="0,36,-694,62" Grid.Row="2" Width="97" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.028,0.63" Click="AddItem_Click"/>
+        <TextBlock  Text="Avail Qty" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Margin="685,27,-559,0" FontSize="14" RenderTransformOrigin="-1.957,3.333" Width="75" Height="20" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="AvailQty" IsReadOnly="True" Grid.Column="1" Margin="0,51,-586,67" Grid.Row="2" TextWrapping="Wrap" HorizontalAlignment="Right" Width="136" FontSize="18" FontFamily="Segoe UI" VerticalAlignment="Center" Background="#FFEEE318" Height="40"/>
+        <Button x:Name="RemoveItem" Content="Remove Drug" Grid.Column="1" HorizontalAlignment="Left" Margin="716,91,-683,0" Grid.Row="4" VerticalAlignment="Top" Width="168" Height="30" FontSize="14" Click="button_Click"/>
+        <TextBox x:Name="Percent" Grid.Column="1" HorizontalAlignment="Right" Height="30" FontSize="18" 
+        	FontFamily="Arial" 
+        	Margin="0,0,-477,139" Grid.Row="4" VerticalAlignment="Bottom" Width="66" 
+        	Grid.RowSpan="2" controls:TextBoxHelper.Watermark="0.00" HorizontalContentAlignment="Left" TextChanged="Discount_TextChanged" LostFocus="Percent_LostFocus"/>
+        <TextBlock x:Name="Per" Grid.Column="1" HorizontalAlignment="Right" Height="24" Margin="0,0,-417,139" Grid.Row="4" TextWrapping="Wrap" Text="Disc %" VerticalAlignment="Bottom" Width="60" FontSize="16" FontFamily="Arial" Grid.RowSpan="2"/>
+        <!--<TextBox x:Name="Days" Grid.Column="1" HorizontalAlignment="Right" Height="30" FontSize="18" 
+        	FontFamily="Arial" 
+        	Margin="0,0,-560,59" Grid.Row="5" VerticalAlignment="Bottom" Width="71" 
+        	controls:TextBoxHelper.Watermark="1" HorizontalContentAlignment="Left" LostFocus="Days_LostFocus"/>
+        <TextBlock x:Name="DaysL" Grid.Column="1" HorizontalAlignment="Right" Height="24" Margin="0,0,-484,59" Grid.Row="5" TextWrapping="Wrap" Text="Days" VerticalAlignment="Bottom" Width="45" FontSize="16" FontFamily="Arial"/>-->
+        <Button x:Name="ResetAll" Content="Make New Sale" Grid.Column="1" HorizontalAlignment="Left" Margin="543,91,-510,0" Grid.Row="4" VerticalAlignment="Top" Width="168" Height="30" FontSize="14" Click="ResetAll_Click"/>
+        <Button x:Name="NewCustomer" Content="Add New Customer" Grid.Column="1" HorizontalAlignment="Left" Margin="243,51,-164,0" Grid.Row="1" VerticalAlignment="Top" Width="122" Height="39" FontSize="10" Click="NewCustomer_Click"/>
+        <Button x:Name="SaveO" Content="Save Only" Grid.Column="1" HorizontalAlignment="Right" Height="33" Margin="0,0,-588,17" Grid.Row="5" VerticalAlignment="Bottom" Width="100" FontSize="12" Click="SaveO_Click"/>
+
+    </Grid>
+</controls:MetroWindow>
